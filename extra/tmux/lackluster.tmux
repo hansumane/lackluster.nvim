@@ -41,9 +41,6 @@ set-option -g popup-border-lines            "rounded"
 set-option -g status-right-style            "fg=$color_gray6"
 set-option -g window-status-current-style   "fg=$color_gray8"
 set-option -g window-status-style           "fg=$color_gray6"
-set -g default-terminal "${TERM}"
-set -as terminal-overrides ',*:Smulx=\E[4::%p1%dm'  # undercurl support
-set -as terminal-overrides ',*:Setulc=\E[58::2::%p1%{65536}%/%d::%p1%{256}%/%{255}%&%d::%p1%{255}%&%d%;m'  # underscore colours - needs tmux-3.0
 
 # display the window index number or index-number:name if has a name
 set-option -g window-status-format         '#{?#{==:#W,},#I,#I:#W}'
