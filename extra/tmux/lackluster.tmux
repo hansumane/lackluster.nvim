@@ -2,6 +2,7 @@
 color_lack="#708090"
 color_luster="#deeeed"
 color_orange="#ffaa88"
+color_yellow="#abab77"
 color_green="#789978"
 color_blue="#7788aa"
 color_red="#d70000"
@@ -39,8 +40,10 @@ set-option -g pane-border-lines             "heavy"
 set-option -g pane-border-style             "fg=$color_gray1"
 set-option -g popup-border-lines            "rounded"
 set-option -g status-right-style            "fg=$color_gray6"
-set-option -g window-status-current-style   "fg=$color_gray8"
+
 set-option -g window-status-style           "fg=$color_gray6"
+set-option -g window-status-current-style   "#{?pane_synchronized,\
+fg=$color_yellow,fg=$color_gray8}"
 
 # display the window index number or index-number:name if has a name
 set-option -g window-status-format         '#{?#{==:#W,},#I,#I:#W}'
