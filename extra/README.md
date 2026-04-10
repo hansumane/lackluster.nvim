@@ -17,5 +17,6 @@ Suggestions, Bug reports, and Contributions are greatly appreciated :)
 ## Stable-ish
 * alacritty
 * eza (formerly exa)
+* kitty
 * tmux
 
