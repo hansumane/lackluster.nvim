@@ -128,7 +128,7 @@ return function(color, color_special)
         keyword = color.gray5,
         keyword_return = color_special.exception,
         keyword_exception = color_special.exception,
-        string = "#aa6666",
+        string = color_special.string,
         string_escape = color.blue,
         punctuation = color.gray6,
         comment = color_special.comment,
