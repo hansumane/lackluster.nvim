@@ -19,4 +19,3 @@ Suggestions, Bug reports, and Contributions are greatly appreciated :)
 * eza (formerly exa)
 * kitty
 * tmux
-
