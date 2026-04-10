@@ -36,7 +36,6 @@ set-option -g message-command-style         "bg=$color_gray6,fg=$color_gray4" # 
 set-option -g mode-style                    "bg=$color_gray8,fg=$color_gray1"
 set-option -g pane-active-border-style      "fg=$color_gray1"
 set-option -g pane-border-lines             "heavy"
-set-option -g pane-border-style             "fg=$color_gray1"
 set-option -g pane-border-style             "fg=$color_gray5"
 set-option -g popup-border-lines            "rounded"
 set-option -g status-right-style            "fg=$color_gray6"
