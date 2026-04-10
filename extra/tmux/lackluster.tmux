@@ -21,7 +21,7 @@ set-option -g automatic-rename              on
 set-option -g automatic-rename-format       "#I"
 
 # set to 12 for a 12-hour clock
-set-option -g clock-mode-style              24 
+set-option -g clock-mode-style              24
 set-option -g clock-mode-colour             "$color_gray6"
 
 # NOTE: color variable expansion only works in double quotes
