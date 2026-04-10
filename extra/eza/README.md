@@ -6,6 +6,7 @@ export EZA_COLORS='ex=38;2;120;153;120:fi=38;2;204;204;204:di=38;2;85;85;85:b0=3
 ```
 
 # fish
+
 ```fish
 # Put this in your config.fish file, and eza will look lackluster
 
