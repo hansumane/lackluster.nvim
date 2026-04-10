@@ -1,3 +1,8 @@
+# why the fork
+1. [upstream](https://github.com/slugbyte/lackluster.nvim.git) is no longer actively developed (see 70dd682e5647)
+2. I like this colorscheme
+3. I want to add more to the `extra/`
+
 # lackluster
 > a delightful and customizable mostly monochrome colorscheme thats soft on the eyes and supports treesitter, lsp, and heaps of neovim plugins.
 
