@@ -210,9 +210,11 @@ local highlight = function(theme, color)
                 -- treesitter markup
                 spec.fg("@markup.heading", theme.ui.fg_title),
                 spec.fg("@markup.quote", color.gray6),
-                spec.fg("@markup.strong", color.gray4),
-                spec.fg("@markup.italic", color.gray4),
-                spec.fg("@markup.strikethrough", color.gray4),
+                spec.fg("@markup.strong", color.blue),
+                spec.fg("@markup.italic", color.gray5),
+                spec.co("@markup.strikethrough", color.gray4, "none", {
+                    strikethrough = true,
+                }),
                 spec.op("@markup.underline", {
                     underline = true,
                 }),
